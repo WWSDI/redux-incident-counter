@@ -1,4 +1,5 @@
-import { useSelector, useDispatch, bindActionCreators } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import { increment, decrement, set } from './actions';
 import { SetCounter } from './SetCounter';
 
